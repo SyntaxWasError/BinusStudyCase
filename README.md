@@ -67,6 +67,10 @@ Beberapa pengembangan yang dapat ditambahkan ke project ini:
 
 ```text
 BinusStudyCase/
+├── assets/
+│   ├── anggota_1.jpg
+│   ├── anggota_2.png
+│   └── anggota_3.png
 ├── index.html
 ├── style.css
 ├── script.js
@@ -78,7 +82,7 @@ BinusStudyCase/
 ```text
 main
 ├── styling
-└── scripting
+└── script
 ```
 
 Setiap fitur dikembangkan pada branch terpisah, kemudian digabungkan ke `main` melalui Pull Request dan code review.

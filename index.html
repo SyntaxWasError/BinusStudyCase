@@ -1,179 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Profil anggota tim Study Case Git dan GitHub Workshop"
+    />
+    <title>Study Case - Git &amp; GitHub Workshop</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
 
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Study Case - Git &amp; GitHub Workshop</title>
+  <body>
+    <header class="navbar">
+      <h1 class="logo">Profile Card</h1>
 
- 
-  <!--
-    TODO (Anggota 2 - branch "styling"):
-    Tambahkan tag <link> di bawah ini untuk menghubungkan file style.css
-    Contoh: <link rel="stylesheet" href="style.css">
-  -->
-    <link rel="stylesheet" href="style.css">
-=======
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-    <title>BNCC | Bina Nusantara Computer Club</title>
-
-    <!--
-        CSS will be connected by the Styling Engineer
-        Example:
-        <link rel="stylesheet" href="style.css">
-    -->
-</head>
-
-<body>
-
-    <!-- =========================
-         NAVBAR
-    ========================== -->
-    <header>
-        <nav>
-            <div>
-                <h1>BNCC</h1>
-            </div>
-
-            <ul>
-                <li>
-                    <a href="#home">Home</a>
-                </li>
-
-                <li>
-                    <a href="#about">About</a>
-                </li>
-
-                <li>
-                    <a href="#activities">Activities</a>
-                </li>
-
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
+      <div class="navbar-actions">
+        <nav class="member-nav" aria-label="Navigasi anggota">
+          <button
+            class="member-link active"
+            type="button"
+            data-member="0"
+            aria-pressed="true"
+          >
+            Adiarta
+          </button>
+          <button
+            class="member-link"
+            type="button"
+            data-member="1"
+            aria-pressed="false"
+          >
+            Frangky
+          </button>
+          <button
+            class="member-link"
+            type="button"
+            data-member="2"
+            aria-pressed="false"
+          >
+            Keindiva
+          </button>
         </nav>
+
+        <button id="theme-toggle" class="btn-toggle" type="button">
+          🌙 Dark Mode
+        </button>
+      </div>
     </header>
 
-
-    <!-- =========================
-         MAIN CONTENT
-    ========================== -->
     <main>
+      <section class="hero" aria-labelledby="user-name">
+        <img
+          src="assets/anggota_1.jpg"
+          alt="Foto profil Adiarta"
+          class="avatar"
+        />
+        <h2 id="user-name">Adiarta</h2>
+        <p id="user-role">Vibe Coder &amp; Web Designer</p>
+        <button id="counter-btn" class="btn-primary" type="button">
+          👍 Like (<span id="counter">0</span>)
+        </button>
+      </section>
 
-        <!-- HERO SECTION -->
-        <section id="home">
-            <div>
-                <p>Bina Nusantara Computer Club</p>
+      <section class="about" aria-labelledby="about-title">
+        <h3 id="about-title">Tentang Saya</h3>
+        <p>
+          Saya adalah atlet renang yang juga senang belajar programming. Saya
+          menggabungkan disiplin dari olahraga dengan kreativitas untuk
+          membangun website yang menarik, rapi, dan fungsional.
+        </p>
+      </section>
 
-                <h2>
-                    Learn, Connect, and Grow Together
-                </h2>
-
-                <p>
-                    A community where technology enthusiasts can learn,
-                    collaborate, and develop their skills together.
-                </p>
-
-                <a href="#about">
-                    Learn More
-                </a>
-            </div>
-        </section>
-
-
-        <!-- ABOUT SECTION -->
-        <section id="about">
-
-            <div>
-                <h2>About BNCC</h2>
-
-                <p>
-                    BNCC is a technology-based community that provides
-                    opportunities for members to learn, collaborate,
-                    and grow through various activities and projects.
-                </p>
-            </div>
-
-        </section>
-
-
-        <!-- ACTIVITIES SECTION -->
-        <section id="activities">
-
-            <h2>Our Activities</h2>
-
-            <div>
-
-                <article>
-                    <h3>Learning</h3>
-
-                    <p>
-                        Develop knowledge and technical skills through
-                        learning activities and technology-related programs.
-                    </p>
-                </article>
-
-
-                <article>
-                    <h3>Collaboration</h3>
-
-                    <p>
-                        Work together with other members through projects
-                        and collaborative activities.
-                    </p>
-                </article>
-
-
-                <article>
-                    <h3>Community</h3>
-
-                    <p>
-                        Connect with people who share the same passion
-                        for technology and personal development.
-                    </p>
-                </article>
-
-            </div>
-
-        </section>
-
-
-        <!-- CONTACT SECTION -->
-        <section id="contact">
-
-            <h2>Connect With Us</h2>
-
-            <p>
-                Learn, collaborate, and grow together with BNCC.
-            </p>
-
-        </section>
-
+      <section class="skills" aria-labelledby="skills-title">
+        <h3 id="skills-title">Skill</h3>
+        <ul id="skill-list">
+          <li>C</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Web Design</li>
+        </ul>
+      </section>
     </main>
 
-
-    <!-- =========================
-         FOOTER
-    ========================== -->
     <footer>
-
-        <p>
-            © 2026 BNCC. All Rights Reserved.
-        </p>
-
+      <p>&copy; 2026 Workshop Git &amp; GitHub</p>
     </footer>
-
-
-    <!--
-        JavaScript will be connected by the Script Engineer
-
-        Example:
-        <script src="script.js"></script>
-    -->
-
-</body>
+  </body>
 </html>

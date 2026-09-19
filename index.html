@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Study Case - Git &amp; GitHub Workshop</title>
@@ -12,67 +13,167 @@
     Contoh: <link rel="stylesheet" href="style.css">
   -->
     <link rel="stylesheet" href="style.css">
+=======
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
+    <title>BNCC | Bina Nusantara Computer Club</title>
+
+    <!--
+        CSS will be connected by the Styling Engineer
+        Example:
+        <link rel="stylesheet" href="style.css">
+    -->
 </head>
+
 <body>
 
-  <header class="navbar">
-    <h1 class="logo">Profile Card</h1>
-    <div class="navbar-actions">
-      <nav class="member-nav" aria-label="Navigasi anggota">
-        <button class="member-link active" type="button" data-member="0" aria-pressed="true">Anggota 1</button>
-        <button class="member-link" type="button" data-member="1" aria-pressed="false">Anggota 2</button>
-        <button class="member-link" type="button" data-member="2" aria-pressed="false">Anggota 3</button>
-      </nav>
-      <button id="theme-toggle" class="btn-toggle">🌙 Dark Mode</button>
-    </div>
-  </header>
+    <!-- =========================
+         NAVBAR
+    ========================== -->
+    <header>
+        <nav>
+            <div>
+                <h1>BNCC</h1>
+            </div>
 
-  <main>
-    <section class="hero">
-      <img
-        src="https://i.pinimg.com/736x/fc/af/7a/fcaf7aec4b7be05a0d062eff7851d2aa.jpg"
-        alt="Foto profil Anggota 1"
-        class="avatar"
-      />
-      <h2 id="user-name">Nama Anggota 1</h2>
-      <p id="user-role">Frontend Developer</p>
-      <button id="counter-btn" class="btn-primary">
-        👍 Like (<span id="counter">0</span>)
-      </button>
-    </section>
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
 
-    <section class="about">
-      <h3>Tentang Saya</h3>
-      <p>
-        Saya fokus membangun tampilan web yang rapi, responsif, dan mudah
-        digunakan melalui struktur HTML dan desain antarmuka yang konsisten.
-      </p>
-    </section>
+                <li>
+                    <a href="#about">About</a>
+                </li>
 
-    <section class="skills">
-      <h3>Skill</h3>
-      <ul id="skill-list">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-      </ul>
-    </section>
-  </main>
+                <li>
+                    <a href="#activities">Activities</a>
+                </li>
 
-  <footer>
-    <p>&copy; 2026 Workshop Git &amp; GitHub</p>
-  </footer>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
- 
-  <!--
-    TODO (Anggota 3 - branch "scripting"):
-    Tambahkan tag <script> di bawah ini (sebelum </body>) untuk
-    menghubungkan file script.js
-    Contoh: <script src="script.js"></script>
-  -->
 
+    <!-- =========================
+         MAIN CONTENT
+    ========================== -->
+    <main>
+
+        <!-- HERO SECTION -->
+        <section id="home">
+            <div>
+                <p>Bina Nusantara Computer Club</p>
+
+                <h2>
+                    Learn, Connect, and Grow Together
+                </h2>
+
+                <p>
+                    A community where technology enthusiasts can learn,
+                    collaborate, and develop their skills together.
+                </p>
+
+                <a href="#about">
+                    Learn More
+                </a>
+            </div>
+        </section>
+
+
+        <!-- ABOUT SECTION -->
+        <section id="about">
+
+            <div>
+                <h2>About BNCC</h2>
+
+                <p>
+                    BNCC is a technology-based community that provides
+                    opportunities for members to learn, collaborate,
+                    and grow through various activities and projects.
+                </p>
+            </div>
+
+        </section>
+
+
+        <!-- ACTIVITIES SECTION -->
+        <section id="activities">
+
+            <h2>Our Activities</h2>
+
+            <div>
+
+                <article>
+                    <h3>Learning</h3>
+
+                    <p>
+                        Develop knowledge and technical skills through
+                        learning activities and technology-related programs.
+                    </p>
+                </article>
+
+
+                <article>
+                    <h3>Collaboration</h3>
+
+                    <p>
+                        Work together with other members through projects
+                        and collaborative activities.
+                    </p>
+                </article>
+
+
+                <article>
+                    <h3>Community</h3>
+
+                    <p>
+                        Connect with people who share the same passion
+                        for technology and personal development.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT SECTION -->
+        <section id="contact">
+
+            <h2>Connect With Us</h2>
+
+            <p>
+                Learn, collaborate, and grow together with BNCC.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+    <footer>
+
+        <p>
+            © 2026 BNCC. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!--
+        JavaScript will be connected by the Script Engineer
+
+        Example:
+        <script src="script.js"></script>
+    -->
 
 </body>
 </html>

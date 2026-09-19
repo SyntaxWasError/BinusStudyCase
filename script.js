@@ -11,7 +11,7 @@ const members = [
     role: "Vibe Coder & Web Designer",
     image: "assets/anggota_1.jpg",
     description:
-      "Saya adalah atlet renang yang juga senang belajar programming. Saya menggabungkan disiplin dari olahraga dengan kreativitas untuk membangun website yang menarik, rapi, dan fungsional.",
+      "Haloo aku Adiarta atlet selam yang juga suka belajar coding!",
     skills: ["C", "HTML", "CSS", "Web Design"],
   },
   {
@@ -19,7 +19,7 @@ const members = [
     role: "Frontend Developer",
     image: "assets/anggota_2.png",
     description:
-      "Saya berfokus mengembangkan antarmuka web yang responsif, interaktif, dan mudah digunakan. Saya senang mengubah ide dan desain menjadi pengalaman digital yang nyaman bagi pengguna.",
+      "halo ges, aku Frangky yang punya ketertarikan pada front end",
     skills: ["HTML", "CSS", "JavaScript"],
   },
   {
@@ -27,7 +27,7 @@ const members = [
     role: "Backend Developer",
     image: "assets/anggota_3.png",
     description:
-      "Saya berfokus membangun logika aplikasi, API, dan pengelolaan data yang terstruktur. Saya senang memastikan sistem di balik layar berjalan stabil, efisien, dan mudah dikembangkan.",
+      "Logical thinking adalah hal yang aku sukai, halo aku Keindiva!",
     skills: ["Backend Development", "API", "Database"],
   },
 ];
